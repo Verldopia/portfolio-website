@@ -1,61 +1,62 @@
 [
     {
+        "workItem": true,
         "important": true,
+        "breaking": true,
         "title": "Graduation Project",
-        "subtitle": "Arne Quinze builds Lupine Tower for Frieze Sculpture, Regent's Park",
         "description": "This year, Frieze Sculpture returns to The Regent’s Park from 5 18 October, featuring 12...",
-        "Year": "2021",
-        "cover": "c29cf9d42747aadbb48f71a2b2c60b62.jpg",
+        "year": "2021",
+        "cover": "../images/todo.png",
         "link": {
-            "details": "https://google.come",
+            "details": "https://google.com",
             "github": "https://github.com/pgm-michielwillems/todo-app"
         }
     },
     {
+        "workItem": true,
         "important": true,
-        "title": "Graduation ProjectThe Beautiful Dreamer",
-        "subtitle": "The first permanent public art sculpture by Arne Quinze in France",
-        "description": "Arne Quinze continues his journey to reshape our cities into more human environments with this...",
-        "Year": "2021",
-        "cover": "c36fde3613c7a022551d69792c869802.jpg",
-        "link": {
-            "details": "https://google.come",
-            "github": "https://github.com/pgm-michielwillems/todo-app"
-        }
-    },
-    {
-        "important": false,
-        "title": "Graduation ProjectMy Secret Desert",
-        "subtitle": "Arne Quinze press release",
+        "title": "Just do IT!",
         "description": "“My Secret Garden Valencia” presents a series of six public sculptures that will enter into...",
-        "Year": "2022",
-        "cover": "189aafca286ca558f1d155bbee5b3605.jpg",
+        "year": "2022",
+        "cover": "../images/todo.png",
         "link": {
-            "details": "https://google.come",
+            "details": "https://google.com",
             "github": "https://github.com/pgm-michielwillems/todo-app"
         }
     },
     {
+        "workItem": true,
         "important": false,
-        "title": "Graduation ProjectHoneycomb Sculpture",
-        "subtitle": "Frieze Sculpture Park opens its doors to nature",
+        "title": "GitHub clone",
         "description": "An upbeat free-to-wander exhibition combines playfulness with serious concerns of contemporary...",
-        "Year": "2022",
-        "cover": "2a35fce49621dd4792df7ddb4692129c.jpg",
+        "year": "2022",
+        "cover": "../images/github.png",
         "link": {
-            "details": "https://google.come",
+            "details": "https://google.com",
+            "github": "https://github.com/pgm-michielwillems/github-clone"
+        }
+    },
+    {
+        "workItem": true,
+        "important": false,
+        "title": "She code Africa",
+        "description": "Arne Quinze continues his journey to reshape our cities into more human environments with this...",
+        "year": "2021",
+        "cover": "../images/github.png",
+        "link": {
+            "details": "https://google.com",
             "github": "https://github.com/pgm-michielwillems/todo-app"
         }
     },
     {
+        "workItem": true,
         "important": false,
-        "title": "Graduation ProjectAfrican Iris",
-        "subtitle": "Visit Arne Quinze's Secret Garden until the 1st of March",
+        "title": "Gentse Feesten",
         "description": "Since February 2019, the open-air exhibition of Arne Quinze already attracted 3 million visitors!...",
-        "Year": "2022",
-        "cover": "ee769c0b3901af4213048470e8948681.jpg",
+        "year": "2022",
+        "cover": "../images/todo.png",
         "link": {
-            "details": "https://google.come",
+            "details": "https://google.com",
             "github": "https://github.com/pgm-michielwillems/todo-app"
         }
     }

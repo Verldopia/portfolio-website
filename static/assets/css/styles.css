@@ -159,7 +159,6 @@ a:hover,
   flex-grow: 1;
 }
 .work-item {
-  background-image: url(../images/todo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -196,12 +195,6 @@ a:hover,
   height: 100%;
   gap: 0.5rem;
 }
-.work-item--todo {
-  background-image: url(../images/todo.png);
-}
-.work-item--github {
-  background-image: url(../images/github.png);
-}
 .link {
   display: flex;
   justify-content: center;
@@ -223,9 +216,12 @@ a:hover,
 .left {
   text-align: left;
 }
-.box-large {
+.box__large {
   flex-grow: 2;
-  width: 60%;
+  width: calc(59% + 2rem);
+}
+.box__breaking {
+  width: 100%;
 }
 
 /* Global re-occuring */
