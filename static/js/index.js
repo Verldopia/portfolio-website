@@ -13,7 +13,7 @@ import projects from '../data/projects.json' assert {type: 'json'};
         },
         generateUI() {
             this.registerListeners();
-            this.$tiles.innerHTML += this.generateTile(this.projects);
+            this.generateTile(this.projects);
         },
         registerListeners() {
             this.$hamburger.addEventListener('click', this.toggler)
@@ -29,27 +29,46 @@ import projects from '../data/projects.json' assert {type: 'json'};
             }
         },
         generateTile() {
-            return this.projects.map((p) => {
-                if (p.workItem) {
-                    return `
-                    <div class="content-box ${p.important ? (p.breaking && p.important ? "box__large box__breaking" : "box__large") : ''} work-item" style="background-image: url(static/assets/images/${p.cover})">
+            for (let i = 0; i < this.projects.length; i++) {
+            const project = this.projects.find(e => e.order - 1 === i)
+            if(project.workItem) {
+                const items = `
+                <div class="content-box ${project.important ? (project.breaking && project.important ? "box__large box__breaking" : "box__large") : ''} work-item" style="background-image: url(static/assets/images/${project.cover})">
                     <div class="work-item__ribbon">
-                        <p class="ribbon__text">${p.title}</p>
+                        <p class="ribbon__text">${project.title}</p>
                     </div>
                     <div class="work-item__bg">
                         <div class="work-item__btns">
-                            <a class="link" href="${p.link.github}" target="_blank">
+                            <a class="link" href="${project.link.github}" target="_blank">
                                 <div class="link__icon github"></div>
                                 <span class="link__href">GitHub</span>
                             </a>
-                            <a class="link" href="${p.link.details}" target="_blank">
+                            <a class="link" href="${project.link.details}" target="_blank">
                                 <div class="link__icon linkedin"></div>
                                 <span class="link__href">Details</span>
                             </a>
                         </div>
                     </div>
                 </div>`
-            }}).join('');
+            this.$tiles.innerHTML += items;
+            } else {
+                let orangeTitle = project.text.shift();
+                const items = `
+                <div class="content-box left">
+                    <h3 class="margin-bottom">${project.title}</h3>
+                    ${project.text ? `
+                        <ul>
+                            <li>
+                                <p class="yellow">${orangeTitle.title ? `<a class="yellow" href=${orangeTitle.url} target="_blank">${orangeTitle.title}</a>` : orangeTitle}</p>
+                                ${project.text.map((text) => `<li>${text.title ? `<a href=${text.url} target="_blank">${text.title}</a>` : `<p>${text}</p>`}</li>`).join('')}
+                            </li>
+                        </ul>
+                        ` : ""
+                    }
+                    ${project.button ? `<a href="pages/contact.html" class="btn btn--yellow margin-top">Contact</a>` : ''}
+                </div>`
+                this.$tiles.innerHTML += items;
+            }};
         }
     }
     app.init()

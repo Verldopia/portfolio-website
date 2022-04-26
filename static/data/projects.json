@@ -1,5 +1,53 @@
 [
     {
+        "order": 2,
+        "workItem": false,
+        "important": false,
+        "breaking": false,
+        "title": "Tere tulemast!",
+        "text": [
+            "Michiel Willems",
+            "Software engineer"
+        ],
+        "button": true
+    },
+    {
+        "order": 4,
+        "workItem": false,
+        "important": false,
+        "breaking": false,
+        "title": "Skills.",
+        "text": [
+            "JAM-stack development",
+            "Data management",
+            "SQL - JSON",
+            "Javascript",
+            "API development",
+            "React",
+            "UI / UX"
+        ],
+        "button": false
+    },
+    {
+        "order": 8,
+        "workItem": false,
+        "important": false,
+        "breaking": false,
+        "title": "Let's discuss a project.",
+        "text": [
+            {
+                "title": "LinkedIn",
+                "url": "www.google.com"
+            },
+            {
+                "title": "GitHub",
+                "url": "www.google.com"
+            }
+        ],
+        "button": true
+    },
+    {
+        "order": 3,
         "workItem": true,
         "important": true,
         "breaking": true,
@@ -13,6 +61,7 @@
         }
     },
     {
+        "order": 1,
         "workItem": true,
         "important": true,
         "title": "Just do IT!",
@@ -25,8 +74,9 @@
         }
     },
     {
+        "order": 7,
         "workItem": true,
-        "important": false,
+        "important": true,
         "title": "GitHub clone",
         "description": "An upbeat free-to-wander exhibition combines playfulness with serious concerns of contemporary...",
         "year": "2022",
@@ -37,6 +87,7 @@
         }
     },
     {
+        "order": 5,
         "workItem": true,
         "important": false,
         "title": "She code Africa",
@@ -49,6 +100,7 @@
         }
     },
     {
+        "order": 6,
         "workItem": true,
         "important": false,
         "title": "Gentse Feesten",
