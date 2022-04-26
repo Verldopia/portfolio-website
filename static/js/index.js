@@ -20,7 +20,13 @@ import projects from '../data/projects.json' assert {type: 'json'};
         },
         toggler() {
             this.$hamburgerItems = document.querySelector('.nav__list--hamburger');
-            this.$hamburgerItems.classList.toggle('hamburger-selected');
+            this.$html = document.querySelector('html');
+            const lock = this.$hamburgerItems.classList.toggle('hamburger-selected');
+            if (lock) {
+                this.$html.style.overflow="hidden";
+            } else {
+                this.$html.style.overflow="unset";
+            }
         },
         generateTile() {
             return this.projects.map((p) => {
