@@ -9,7 +9,7 @@
     <title>Michiel Willems | Portfolio</title>
 </head>
 <body>
-    <header>
+    <header id="top">
         <nav class="nav full-width">
             <div class="hamburger-menu full"></div>
             <ul class="nav__list--hamburger">
@@ -24,10 +24,15 @@
                 </li>
             </ul>
             <div class="full-width__text">
+                <div class="overlay__box"></div>
+                <div class="header-box">
+                    <div class='switch-box'>
+                        <div name='themes' class='switch__img'></div>
+                    </div>
+                </div>
                 <ul class="nav__list">
                     <li class="nav__item">
                         <a class="yellow" href="index.html">Home<div class="yellow__underline"></div></a>
-                        
                     </li>
                     <li class="nav__item">
                         <a href="static/pages/about.html">About</a>
@@ -40,9 +45,8 @@
         </nav>
     </header>
     <main class="main-container">
-        <button id="btn-totop" href="index.html"></button>
         <div class="container">
-            <div class="content-box box-small left">
+            <div class="content-box left">
                 <span class="span margin-bottom">Tere tulemast!</span>
                 <h1 class="h1"><span class="yellow">Michiel Willems</span></h1>
                 <h2 class="h2">Creative software engineer.</h2>
@@ -67,7 +71,7 @@
             </div>
             <div class="content-box box-large work-item work-item--todo">
                 <div class="work-item__ribbon">
-                    <p class="ribbon__text">Large project</p>
+                    <p class="ribbon__text">Tasks Application</p>
                 </div>
                 <div class="work-item__bg">
                     <div class="work-item__btns">
@@ -82,7 +86,7 @@
                     </div>
                 </div>
             </div>
-            <div class="content-box box-small left">
+            <div class="content-box left">
                 <span class="span margin-bottom">Skills.</span>
                 <h1 class="h1"></h1>
                 <div class="socials left">
@@ -109,7 +113,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="content-box box-small work-item">
+            <div class="content-box work-item">
                 <div class="work-item__bg">
                     <div class="work-item__btns">
                         <a class="link" href="https://www.google.com" target="_blank">
@@ -123,7 +127,7 @@
                     </div>
                 </div>
             </div>
-            <div class="content-box box-small left">
+            <div class="content-box left">
                 <span class="span margin-bottom">Let's discuss a project.</span>
                 <h1 class="h1"></h1>
                 <div class="socials left">
@@ -138,7 +142,7 @@
                     <a href="pages/contact.html" class="btn btn--yellow margin-top">Contact</a>
                 </div>
             </div>
-            <div class="content-box box-small work-item">
+            <div class="content-box work-item">
                 <div class="work-item__bg">
                     <div class="work-item__btns">
                         <a class="link" href="https://www.google.com" target="_blank">
@@ -152,7 +156,7 @@
                     </div>
                 </div>
             </div>
-            <div class="content-box box-small work-item work-item--github second">
+            <div class="content-box work-item work-item--github second">
                 <div class="work-item__ribbon">
                     <p class="ribbon__text">Github clone</p>
                 </div>
@@ -170,6 +174,7 @@
                 </div>
             </div>
         </div>
+        <a class="btn-totop" id="btn-totop" href="#top"></a>
     </main>
 
     <footer class="footer full-width">
@@ -177,6 +182,6 @@
     </footer>
 
     <script src="static/js/index.js"></script>
-    <script src='static/js/btn-totop.js'></script>
+    <script src="static/js/themes.js" type="module"></script>
 </body>
 </html>
