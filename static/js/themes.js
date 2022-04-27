@@ -58,7 +58,7 @@ import themes from '../data/themes.json' assert {type: 'json'};
         (theme) => theme.slug === localStorage.getItem('activeThemeName')
         );
         const href = activeTheme.items[6].var.replace('url(../', 'static/assets/')
-        let cleanHref = href.replace(')', '')
+        let cleanHref = href.replace(')', '');
         
         let headTitle = document.querySelector('head');
         let setFavicon = document.createElement('link');

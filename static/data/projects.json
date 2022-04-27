@@ -37,11 +37,11 @@
         "text": [
             {
                 "title": "LinkedIn",
-                "url": "www.google.com"
+                "url": "https://www.linkedin.com/in/michiel-willems-221113221/"
             },
             {
                 "title": "GitHub",
-                "url": "www.google.com"
+                "url": "https://github.com/verldopia"
             }
         ],
         "button": true
@@ -54,7 +54,13 @@
         "title": "Graduation Project",
         "description": "This year, Frieze Sculpture returns to The Regent’s Park from 5 18 October, featuring 12...",
         "year": "2021",
-        "cover": "../images/todo.png",
+        "images": {
+            "cover": "../images/portfolio/todo.png",
+            "large": [
+                "../images/portfolio/todo.png",
+                "../images/portfolio/todo.png"
+            ]
+        },
         "link": {
             "details": "https://google.com",
             "github": "https://github.com/pgm-michielwillems/todo-app"
@@ -67,7 +73,13 @@
         "title": "Just do IT!",
         "description": "“My Secret Garden Valencia” presents a series of six public sculptures that will enter into...",
         "year": "2022",
-        "cover": "../images/todo.png",
+        "images": {
+            "cover": "../images/portfolio/todo.png",
+            "large": [
+                "../images/portfolio/todo.png",
+                "../images/portfolio/todo.png"
+            ]
+        },
         "link": {
             "details": "https://google.com",
             "github": "https://github.com/pgm-michielwillems/todo-app"
@@ -80,9 +92,15 @@
         "title": "GitHub clone",
         "description": "An upbeat free-to-wander exhibition combines playfulness with serious concerns of contemporary...",
         "year": "2022",
-        "cover": "../images/github.png",
+        "images": {
+            "cover": "../images/portfolio/github.png",
+            "large": [
+                "../images/portfolio/github.png",
+                "../images/portfolio/github.png"
+            ]
+        },
         "link": {
-            "details": "https://google.com",
+            "details": "https://verldopia.github.io/github-clone/",
             "github": "https://github.com/pgm-michielwillems/github-clone"
         }
     },
@@ -90,13 +108,19 @@
         "order": 5,
         "workItem": true,
         "important": false,
-        "title": "She code Africa",
+        "title": "Arne Quinze",
         "description": "Arne Quinze continues his journey to reshape our cities into more human environments with this...",
         "year": "2021",
-        "cover": "../images/github.png",
+        "images": {
+            "cover": "../images/portfolio/arne.png",
+            "large": [
+                "../images/portfolio/github.png",
+                "../images/portfolio/github.png"
+            ]
+        },
         "link": {
-            "details": "https://google.com",
-            "github": "https://github.com/pgm-michielwillems/todo-app"
+            "details": "https://verldopia.github.io/arne-quinze/",
+            "github": "https://github.com/Verldopia/arne-quinze/"
         }
     },
     {
@@ -106,10 +130,16 @@
         "title": "Gentse Feesten",
         "description": "Since February 2019, the open-air exhibition of Arne Quinze already attracted 3 million visitors!...",
         "year": "2022",
-        "cover": "../images/todo.png",
+        "images": {
+            "cover": "../images/portfolio/gf__square.png",
+            "large": [
+                "../images/portfolio/gf.png",
+                "../images/portfolio/gf__squarg.png"
+            ]
+        },
         "link": {
-            "details": "https://google.com",
-            "github": "https://github.com/pgm-michielwillems/todo-app"
+            "details": "https://verldopia.github.io/gentse-feesten/",
+            "github": "https://github.com/Verldopia/gentse-feesten/"
         }
     }
 ]

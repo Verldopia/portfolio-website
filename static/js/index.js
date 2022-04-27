@@ -33,7 +33,13 @@ import projects from '../data/projects.json' assert {type: 'json'};
             const project = this.projects.find(e => e.order - 1 === i)
             if(project.workItem) {
                 const items = `
-                <div class="content-box ${project.important ? (project.breaking && project.important ? "box__large box__breaking" : "box__large") : ''} work-item" style="background-image: url(static/assets/images/${project.cover})">
+                <div class="content-box ${
+                    project.important ? 
+                    (project.breaking && project.important ? 
+                        "box__large box__breaking" 
+                        : "box__large") 
+                        : ''} 
+                    work-item" style="background-image: url(static/assets/images/${project.images.cover})">
                     <div class="work-item__ribbon">
                         <p class="ribbon__text">${project.title}</p>
                     </div>
@@ -45,7 +51,7 @@ import projects from '../data/projects.json' assert {type: 'json'};
                             </a>
                             <a class="link" href="${project.link.details}" target="_blank">
                                 <div class="link__icon linkedin"></div>
-                                <span class="link__href">Details</span>
+                                <span class="link__href">Deployed</span>
                             </a>
                         </div>
                     </div>
@@ -59,13 +65,17 @@ import projects from '../data/projects.json' assert {type: 'json'};
                     ${project.text ? `
                         <ul>
                             <li>
-                                <p class="yellow">${orangeTitle.title ? `<a class="yellow" href=${orangeTitle.url} target="_blank">${orangeTitle.title}</a>` : orangeTitle}</p>
-                                ${project.text.map((text) => `<li>${text.title ? `<a href=${text.url} target="_blank">${text.title}</a>` : `<p>${text}</p>`}</li>`).join('')}
+                                <p class="yellow">${
+                                    orangeTitle.title ? `<a class="yellow" href=${orangeTitle.url} target="_blank">${orangeTitle.title}</a>` 
+                                    : orangeTitle}</p>
+                                ${project.text.map((text) => 
+                                    `<li>${text.title ? `<a href=${text.url} target="_blank">${text.title}</a>` 
+                                    : `<p>${text}</p>`}</li>`).join('')}
                             </li>
                         </ul>
                         ` : ""
                     }
-                    ${project.button ? `<a href="pages/contact.html" class="btn btn--yellow margin-top">Contact</a>` : ''}
+                    ${project.button ? `<a href="./static/pages/contact.html" class="btn btn--yellow margin-top">Contact</a>` : ''}
                 </div>`
                 this.$tiles.innerHTML += items;
             }};
