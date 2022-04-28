@@ -1,9 +1,9 @@
 import projects from '../data/projects.json' assert {type: 'json'};
+import textItems from '../data/textItems.json' assert {type: 'json'};
 
 (() => {
     const app = {
         init() {
-            this.projects = projects;
             this.cacheElements();
             this.generateUI();
         },
@@ -13,7 +13,7 @@ import projects from '../data/projects.json' assert {type: 'json'};
         },
         generateUI() {
             this.registerListeners();
-            this.generateTile(this.projects);
+            this.generateTile(projects, textItems);
         },
         registerListeners() {
             this.$hamburger.addEventListener('click', this.toggler)
@@ -28,9 +28,10 @@ import projects from '../data/projects.json' assert {type: 'json'};
                 this.$html.style.overflow="unset";
             }
         },
-        generateTile() {
-            for (let i = 0; i < this.projects.length; i++) {
-            const project = this.projects.find(e => e.order - 1 === i)
+        generateTile(projects, textItems) {
+            projects.push(...textItems);
+            for (let i = 0; i < projects.length; i++) {
+            const project = projects.find(e => e.order - 1 === i)
             if(project.workItem) {
                 const items = `
                 <div class="content-box ${

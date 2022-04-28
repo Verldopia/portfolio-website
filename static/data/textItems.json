@@ -1,0 +1,49 @@
+[
+    {
+        "order": 2,
+        "workItem": false,
+        "important": false,
+        "breaking": false,
+        "title": "Tere tulemast!",
+        "text": [
+            "Michiel Willems",
+            "Software engineer"
+        ],
+        "button": true
+    },
+    {
+        "order": 4,
+        "workItem": false,
+        "important": false,
+        "breaking": false,
+        "title": "Skills.",
+        "text": [
+            "JAM-stack development",
+            "Data management",
+            "SQL - JSON",
+            "Javascript",
+            "API development",
+            "React",
+            "UI / UX"
+        ],
+        "button": false
+    },
+    {
+        "order": 8,
+        "workItem": false,
+        "important": false,
+        "breaking": false,
+        "title": "Let's discuss a project.",
+        "text": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/michiel-willems-221113221/"
+            },
+            {
+                "title": "GitHub",
+                "url": "https://github.com/verldopia"
+            }
+        ],
+        "button": true
+    }
+]
