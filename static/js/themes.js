@@ -18,7 +18,6 @@ import themes from '../data/themes.json' assert {type: 'json'};
       this.$switch = document.querySelector('.switch__img');
       this.$switchBox = document.querySelector('.switch-box');
       this.$overlay = document.querySelector('.overlay__box');
-      // this.$link = document.querySelector("link[rel~='icon']");
     },
     registerListeners() {
       this.$switch.addEventListener('click', () => {
@@ -57,15 +56,7 @@ import themes from '../data/themes.json' assert {type: 'json'};
       const activeTheme = this.themes.find(
         (theme) => theme.slug === localStorage.getItem('activeThemeName')
         );
-        const href = activeTheme.items[6].var.replace('url(../', 'static/assets/')
-        let cleanHref = href.replace(')', '');
         
-        let headTitle = document.querySelector('head');
-        let setFavicon = document.createElement('link');
-        setFavicon.setAttribute('rel','shortcut icon');
-        setFavicon.setAttribute('href', cleanHref);
-        headTitle.appendChild(setFavicon);
-
       activeTheme.items.forEach((item) => {
         this.root.style.setProperty(`--${item.name}`, item.var);
       });

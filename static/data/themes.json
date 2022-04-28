@@ -13,16 +13,16 @@
     ]
   },
   {
-    "name": "Toxic",
-    "slug": "toxic",
+    "name": "Peachy",
+    "slug": "peachy",
     "items": [
-      { "name": "primary-top", "var": "#194e1c" },
-      { "name": "primary-bottom", "var": "#fbff01" },
+      { "name": "primary-top", "var": "#fffff5" },
+      { "name": "primary-bottom", "var": "#ff968a" },
       { "name": "primary-text", "var": "#ffff00" },
-      { "name": "primary-border", "var": "#093211" },
+      { "name": "primary-border", "var": "#55cbcd" },
       { "name": "primary-buttons", "var": "#18182E" },
       { "name": "primary-nav__bg", "var": "rgba(0, 0, 0, 0.4)" },
-      { "name": "switch-img", "var": "url(../images/themes/toxic.png)" }
+      { "name": "switch-img", "var": "url(../images/themes/peach.png)" }
     ]
   },
   {
