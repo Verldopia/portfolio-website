@@ -264,7 +264,7 @@ a:hover,
   background-image: var(--switch-img);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 80%;
+  background-size: 65%;
 }
 .switch__img {
   cursor: pointer;
@@ -343,11 +343,16 @@ footer {
   font-weight: 200;
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 60%;
   height: 100%;
   max-width: 70rem;
-  margin: 0 auto;
   padding: 0 1rem;
+}
+@media (min-width: 600px) {
+  .full-width__text {
+    margin: 0 auto;
+    width: 100%;
+  }
 }
 @media (min-width: 1400px) {
   .full-width__text {
