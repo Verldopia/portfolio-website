@@ -2,6 +2,7 @@
 
 @import url("reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
 /* Variables */
 
@@ -207,8 +208,7 @@ a:hover,
   gap: 0.5rem;
   width: 10rem;
 }
-.link__icon,
-.modal__close {
+.link__icon {
   width: 1rem;
   height: 1rem;
   background-image: url(../images/details.png);
@@ -256,36 +256,48 @@ a:hover,
 /* Modal */
 
 .modal {
-  position: absolute;
-  border-radius: 0;
-  left: 0;
+  position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   z-index: 100;
   box-sizing: border-box;
   background-color: rgb(0, 0, 0, 0.5);
 }
 .modal__box {
-  padding-bottom: 50rem;
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0, 0.7);
   border-radius: 1rem;
   position: relative;
   width: calc(70rem - 2rem);
   max-width: 100%;
   padding: 1rem;
-  margin: 0 auto;
+  margin: 0 auto 20rem auto;
 }
 .modal__close {
+  font-size: 1.5rem;
+  color: var(--primary-text);
   position: absolute;
   right: 1rem;
-  top: 1.5rem;
-  background-image: url(../images/details.png);
+  top: 1rem;
   border: none;
   background-color: unset;
   cursor: pointer;
 }
+.modal__title {
+  text-align: center;
+  padding: 2rem;
+  font-size: 3rem;
+  font-family: 'Cookie', cursive;
+}
+.modal__year {
+  margin: 2rem;
+}
+.modal__paragraph {
+  margin: 2rem;
+  max-width: 70%;
+}
 .modal__image-box {
-  height: 32rem;
+  height: 25rem;
   width: 100%;
   margin: 2rem 0;
   background-position: center;

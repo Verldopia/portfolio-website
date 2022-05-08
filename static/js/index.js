@@ -94,9 +94,9 @@ import textItems from '../data/textItems.json' assert {type: 'json'};
             console.log(project);
             this.$modal.innerHTML = `
             <div class="modal__box">
-                <button class="modal__close"></button>
-                <h2 class="modal__title">${project.title}</h2>
-                <h3 class="modal__year">This was programmed in ${project.year}.</h3>
+                <button class="modal__close">x</button>
+                <h2 class="modal__title yellow">${project.title}</h2>
+                <h3 class="modal__year">This project was created by Michiel Willems in <span class="yellow">${project.year}</span>.</h3>
                 <p class="modal__paragraph">${project.description}</p>
                 <div class="modal__image-box" style="background-image: url(static/assets/images/${project.images.cover})"></div>
                 <div class="work-item__bg">
@@ -110,7 +110,7 @@ import textItems from '../data/textItems.json' assert {type: 'json'};
                             <span class="link__href">Deployed</span>
                         </a>
                     </div>
-                </div>                
+                </div>               
             </div>
             `
             this.$close = document.querySelector('.modal__close');

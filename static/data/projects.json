@@ -6,7 +6,7 @@
         "breaking": true,
         "title": "Graduation Project",
         "description": "This year, Frieze Sculpture returns to The Regent’s Park from 5 18 October, featuring 12...",
-        "year": "2021",
+        "year": "May 2022",
         "images": {
             "cover": "../images/portfolio/todo.png",
             "large": [
@@ -23,9 +23,10 @@
         "order": 1,
         "workItem": true,
         "important": true,
+        "breaking": false,
         "title": "Just do IT!",
-        "description": "“My Secret Garden Valencia” presents a series of six public sculptures that will enter into...",
-        "year": "2022",
+        "description": "To-do application with the possibility to Add tasks to a category and mark it as done. It's also possible to change the name of a task or category, and delete it. All data is stored in a relational database using TypeORM. Using the application is done by creating an account and logging in.",
+        "year": "February 2022",
         "images": {
             "cover": "../images/portfolio/todo.png",
             "large": [
@@ -42,9 +43,10 @@
         "order": 7,
         "workItem": true,
         "important": true,
+        "breaking": false,
         "title": "GitHub clone",
-        "description": "An upbeat free-to-wander exhibition combines playfulness with serious concerns of contemporary...",
-        "year": "2022",
+        "description": "This application is fetching data mainly from the GitHub API. It also fetches data from the city of Ghent, weather API and YouTube. Possibility to search GitHub users, play YouTube videos, search the weather in any city around the world.",
+        "year": "December 2021",
         "images": {
             "cover": "../images/portfolio/github.png",
             "large": [
@@ -61,9 +63,10 @@
         "order": 5,
         "workItem": true,
         "important": false,
+        "breaking": false,
         "title": "Arne Quinze",
-        "description": "Arne Quinze continues his journey to reshape our cities into more human environments with this...",
-        "year": "2021",
+        "description": "Static website made for the Belgian artist \"Arne Quinze\". On the page \"Art & Exhibitions\" there is a search ability that filters on year, or category.",
+        "year": "November 2021",
         "images": {
             "cover": "../images/portfolio/arne.png",
             "large": [
@@ -80,14 +83,15 @@
         "order": 6,
         "workItem": true,
         "important": false,
+        "breaking": false,
         "title": "Gentse Feesten",
         "description": "Since February 2019, the open-air exhibition of Arne Quinze already attracted 3 million visitors!...",
-        "year": "2022",
+        "year": "November 2021",
         "images": {
             "cover": "../images/portfolio/gf__square.png",
             "large": [
                 "../images/portfolio/gf.png",
-                "../images/portfolio/gf__squarg.png"
+                "../images/portfolio/gf__square.png"
             ]
         },
         "link": {
