@@ -56,7 +56,7 @@
                 <h1 class="h1-cookie yellow">Contact</h1>
                 <div class="form__box-small">
                     <div class="form__item">
-                        <label for="email">*Your email:</label>
+                        <label for="email">* Your email:</label>
                         <input class="form__input" type="email" id="email" placeholder="Email" required="true">
                     </div>
     
@@ -67,21 +67,24 @@
                 </div>
 
                 <div class="form__item">
-                    <label for="text">*A message:</label>
+                    <label for="text">* Message:</label>
                     <input class="form__input" type="textarea" id="text" placeholder="Write me a message." required="true">
                 </div>
 
                 <input class="form__input" type="submit" value="Submit">
             </form>
-            <div class="contact-form content-box"></div>
+            <div class="contact-form content-box content-box__padding">
+                <div class="contact-form__socials"></div>
+            </div>
         </div>
     </main>
 
-    <footer class="footer full-width">
+    <footer class="footer full-width footer-contact">
         <div class="full-width__text">All rights reserved to Michiel Willems</div>
     </footer>
 
     <script src="js/index.js" type="module"></script>
+    <script src="js/generateContactsList.js" type="module"></script>
     <script src="js/themes.js" type="module"></script>
 </body>
 </html>
