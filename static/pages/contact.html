@@ -24,7 +24,7 @@
                     <a href="pages/about.html">About</a>
                 </li>
                 <li class="nav__item">
-                    <a class="yellow"  href="contact.html">Contact</a>
+                    <a class="yellow"  href="pages/contact.html">Contact</a>
                 </li>
             </ul>
             <div class="full-width__text">
@@ -43,7 +43,7 @@
                         <a href="pages/about.html">About</a>
                     </li>
                     <li class="nav__item">
-                        <a class="yellow" href="contact.html">Contact<div class="yellow__underline"></div></a>
+                        <a class="yellow" href="pages/contact.html">Contact<div class="yellow__underline"></div></a>
                     </li>
                 </ul>
             </div>
@@ -51,7 +51,30 @@
     </header>
     
     <main class="main-container">
-        <div class="container"></div>
+        <div class="container">
+            <form class="contact-form content-box box__large" method="post" action="">
+                <h1 class="h1-cookie yellow">Contact</h1>
+                <div class="form__box-small">
+                    <div class="form__item">
+                        <label for="email">*Your email:</label>
+                        <input class="form__input" type="email" id="email" placeholder="Email" required="true">
+                    </div>
+    
+                    <div class="form__item">
+                        <label for="phone">Telephone number:</label>
+                        <input class="form__input" type="tell" id="phone" placeholder="Telephone">
+                    </div>
+                </div>
+
+                <div class="form__item">
+                    <label for="text">*A message:</label>
+                    <input class="form__input" type="textarea" id="text" placeholder="Write me a message." required="true">
+                </div>
+
+                <input class="form__input" type="submit" value="Submit">
+            </form>
+            <div class="contact-form content-box"></div>
+        </div>
     </main>
 
     <footer class="footer full-width">
