@@ -11,9 +11,7 @@
   --primary-top: #cc38b8;
   --primary-bottom: #bd8c22;
   --primary-text: #ffffff;
-  --primary-border: #8b267e;
   --primary-buttons: #181818;
-  --primary-nav__bg: rgba(255, 255, 255, 0.2);
   --switch-img: url(../images/themes/beach.png);
   --yellow: #FFAB4C;
   --black: #000000;
@@ -397,9 +395,6 @@ a:hover,
   50% {
     margin-left: -15rem;
   }
-}
-.active__cat {
-  border-left: 5px solid var(--primary-border);
 }
 .shaking {
   animation: shake infinite 3s;
