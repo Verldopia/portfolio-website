@@ -136,7 +136,7 @@ a:hover,
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;  
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
 }
 @media (min-width: 800px) {
   .container {
@@ -163,6 +163,7 @@ a:hover,
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: unset;
   width: 50rem;
 }
 .work-item {
@@ -251,9 +252,9 @@ a:hover,
 .img-box__img {
   background-image: url(../images/doge.png);
   background-repeat: no-repeat;
+  background-position: left;
   background-attachment: fixed;
-  background-size: contain;
-  width: 100%;
+  background-size: cover;
 }
 .img-box__text {
   display: flex;
@@ -264,9 +265,9 @@ a:hover,
   margin: 0 auto;
   padding: 2rem;
 }
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .img-box__img {
-    background-position: left;
+    background-size: contain;
     width: 60%;
   }
   .img-box__text {
