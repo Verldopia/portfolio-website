@@ -11,17 +11,6 @@
     ]
   },
   {
-    "name": "Peachy",
-    "slug": "peachy",
-    "items": [
-      { "name": "primary-top", "var": "#F0EC57" },
-      { "name": "primary-bottom", "var": "#748067" },
-      { "name": "primary-text", "var": "#ffff00" },
-      { "name": "primary-buttons", "var": "#18182E" },
-      { "name": "switch-img", "var": "url(../images/themes/peach.png)" }
-    ]
-  },
-  {
     "name": "Unicorn",
     "slug": "unicorn",
     "items": [

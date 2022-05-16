@@ -133,7 +133,6 @@ a:hover,
 /* Main */
 
 .container {
-  border: 1px solid red;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;  
@@ -161,7 +160,6 @@ a:hover,
   flex-grow: 1;
 }
 .content-box__about {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
