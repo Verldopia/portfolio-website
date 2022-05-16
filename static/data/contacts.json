@@ -18,5 +18,10 @@
         "title": "Email",
         "url": "mailto:michiel.flash@gmail.com",
         "icon": "../images/email--white.png"
+    },
+    {
+        "title": "Resume",
+        "url": "https://xd.adobe.com/view/7eb22c9e-5690-4705-b044-9b66a0e8e32a-2be1/?fullscreen",
+        "icon": "../images/resume--white.png"
     }
 ]
