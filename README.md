@@ -1,7 +1,7 @@
 # Portfolio Website
 
 ## Author 
-Michiel Willems
+Michiel Willems.
 
 ## Introduction
     My portfolio website, made for Artevelde University of Applied sciences as final project for the course "IT Business". 
