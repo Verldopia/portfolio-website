@@ -323,6 +323,11 @@ a:hover,
 .btn--yellow:hover {
   color: var(--white);
 }
+.btn--left {
+  border-radius: 0.2rem;
+  cursor: pointer;
+  display: flex;
+}
 .h1-cookie {
   text-align: center;
   border-bottom: 1px solid var(--white);
@@ -395,10 +400,24 @@ a:hover,
   gap: 0.5rem;
   margin: 1rem 0;
 }
+.box-submit {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
 .form__input {
+  border: none;
   padding: 0.5rem;
   width: 100%;
   border-radius: 0.2rem;
+}
+textarea.form__input {
+  font-family: 'Montserrat', 'Courier New', Courier, monospace;
+  resize: vertical;
+  line-height: 1.5rem;
 }
 @media (min-width: 525px) {
   .contact-form {
@@ -407,6 +426,9 @@ a:hover,
   .form__box-small {
       display: flex;
       gap: 2rem;
+  }
+  .box-submit {
+    flex-direction: row;
   }
 }
 .content-box__padding {
