@@ -4,14 +4,11 @@ import contacts from '../data/contacts.json' assert {type: 'json'};
     const app = {
         init() {
             this.cacheElements();
-            this.generateUI();
+            this.generateContactList();
         },
         cacheElements() {
             this.contacts = contacts;
             this.$contactsItem = document.querySelector('.contact-form__socials');
-        },
-        generateUI() {
-            this.generateContactList();
         },
         generateContactList () {
             console.log(this.contacts);
