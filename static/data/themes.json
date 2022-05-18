@@ -1,16 +1,5 @@
 [
   {
-    "name": "Beach",
-    "slug": "beach",
-    "items": [
-      { "name": "primary-top", "var": "#cc38b8" },
-      { "name": "primary-bottom", "var": "#bd8c22" },
-      { "name": "primary-text", "var": "#FFFFFF" },
-      { "name": "primary-buttons", "var": "#181818" },
-      { "name": "switch-img", "var": "url(../images/themes/beach.png)" }
-    ]
-  },
-  {
     "name": "Unicorn",
     "slug": "unicorn",
     "items": [
@@ -19,6 +8,17 @@
       { "name": "primary-text", "var": "#FFFFFF" },
       { "name": "primary-buttons", "var": "#18182E" },
       { "name": "switch-img", "var": "url(../images/themes/unicorn.png)" }
+    ]
+  },
+  {
+    "name": "Beach",
+    "slug": "beach",
+    "items": [
+      { "name": "primary-top", "var": "#cc38b8" },
+      { "name": "primary-bottom", "var": "#bd8c22" },
+      { "name": "primary-text", "var": "#FFFFFF" },
+      { "name": "primary-buttons", "var": "#181818" },
+      { "name": "switch-img", "var": "url(../images/themes/beach.png)" }
     ]
   },
   {

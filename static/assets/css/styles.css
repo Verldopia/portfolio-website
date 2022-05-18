@@ -8,11 +8,11 @@
 
 :root {
   --gradient: linear-gradient(var(--primary-top), var(--primary-bottom));
-  --primary-top: #cc38b8;
-  --primary-bottom: #bd8c22;
+  --primary-top: #22b8bd;
+  --primary-bottom: #e65da1;
   --primary-text: #ffffff;
   --primary-buttons: #181818;
-  --switch-img: url(../images/themes/beach.png);
+  --switch-img: url(../images/themes/unicorn.png);
   --yellow: #FFAB4C;
   --black: #000000;
   --white: #FFFFFF;
@@ -329,18 +329,8 @@ a:hover,
 
 /* Modal */
 
-.modal {
-  /* position: fixed;
-  top: 0;
-  left: 0; */
-  /* width: 100%;
-  z-index: 100; */
-  /* box-sizing: border-box; */
-  /* background-color: rgb(0, 0, 0, 0.5); */
-
-}
 .modal__box {
-  background-color: rgb(0, 0, 0, 0.7);
+  background-color: var(--primary-buttons);
   border-radius: 1rem;
   position: relative;
   width: calc(70rem - 2rem);
