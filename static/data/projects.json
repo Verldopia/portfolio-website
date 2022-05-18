@@ -5,17 +5,16 @@
         "important": true,
         "breaking": true,
         "title": "Graduation Project",
-        "description": "This year, Frieze Sculpture returns to The Regent’s Park from 5 18 October, featuring 12...",
-        "year": "May 2022",
+        "description": "A ReactJS application about the study direction 'Computer programming' of the Artevelde University of Applied Sciences.",
+        "year": "June 2022",
         "images": {
             "cover": "../images/portfolio/todo.png",
             "large": [
-                "../images/portfolio/todo.png",
-                "../images/portfolio/todo.png"
+                ""
             ]
         },
         "link": {
-            "details": "https://google.com",
+            "details": "",
             "github": "https://github.com/pgm-michielwillems/todo-app"
         }
     },
@@ -25,17 +24,16 @@
         "important": true,
         "breaking": false,
         "title": "Just do IT!",
-        "description": "To-do application with the possibility to Add tasks to a category and mark it as done. It's also possible to change the name of a task or category, and delete it. All data is stored in a relational database using TypeORM. Using the application is done by creating an account and logging in.",
+        "description": "The application should be installed according to how it is specified in the GitHub readme. To-do application with the possibility to Add tasks to a category and mark it as done. It's also possible to change the name of a task or category, and delete it. All data is stored in a relational database using TypeORM. Using the application is done by creating an account and logging in.",
         "year": "February 2022",
         "images": {
             "cover": "../images/portfolio/todo.png",
             "large": [
-                "../images/portfolio/todo.png",
-                "../images/portfolio/todo.png"
+                ""
             ]
         },
         "link": {
-            "details": "https://google.com",
+            "details": "",
             "github": "https://github.com/pgm-michielwillems/todo-app"
         }
     },
@@ -50,8 +48,7 @@
         "images": {
             "cover": "../images/portfolio/github.png",
             "large": [
-                "../images/portfolio/github.png",
-                "../images/portfolio/github.png"
+                ""
             ]
         },
         "link": {
@@ -65,13 +62,12 @@
         "important": false,
         "breaking": false,
         "title": "Arne Quinze",
-        "description": "Static website made for the Belgian artist \"Arne Quinze\". On the page \"Art & Exhibitions\" there is a search ability that filters on year, or category.",
+        "description": "Static website made for the Belgian artist \"Arne Quinze\". On the page \"Art & Exhibitions\" there is a search ability that filters on year, or category. The design was given by the client, the goal was to resemble the official website as close as possible.",
         "year": "November 2021",
         "images": {
             "cover": "../images/portfolio/arne.png",
             "large": [
-                "../images/portfolio/github.png",
-                "../images/portfolio/github.png"
+                ""
             ]
         },
         "link": {
@@ -84,19 +80,18 @@
         "workItem": true,
         "important": false,
         "breaking": false,
-        "title": "Gentse Feesten",
-        "description": "Since February 2019, the open-air exhibition of Arne Quinze already attracted 3 million visitors!...",
-        "year": "November 2021",
+        "title": "Portfolio website",
+        "description": "The website was created for the course IT Business to start applying for an internship and full-time workplace from february 2023. The code can be viewed on GitHub.",
+        "year": "June 2022",
         "images": {
-            "cover": "../images/portfolio/gf__square.png",
+            "cover": "../images/portfolio/portfolio.png",
             "large": [
-                "../images/portfolio/gf.png",
-                "../images/portfolio/gf__square.png"
+                ""
             ]
         },
         "link": {
-            "details": "https://verldopia.github.io/gentse-feesten/",
-            "github": "https://github.com/Verldopia/gentse-feesten/"
+            "details": "",
+            "github": "https://github.com/Verldopia/portfolio-website"
         }
     }
 ]
