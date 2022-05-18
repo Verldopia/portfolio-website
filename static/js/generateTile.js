@@ -20,7 +20,10 @@ import textItems from '../data/textItems.json' assert {type: 'json'};
         },
         registerListeners() {
             this.$workItem.forEach(workItem => {
-                workItem.addEventListener('click', () => this.generateModal(workItem));
+                workItem.addEventListener('click', () => {
+                    this.generateModal(workItem)
+                    window.scrollTo(0, 90)
+                });
             });
         },
         generateTile() {
@@ -40,14 +43,16 @@ import textItems from '../data/textItems.json' assert {type: 'json'};
                     </div>
                     <div class="work-item__bg">
                         <div class="work-item__btns">
-                            <a class="link" href="${project.link.github}" target="_blank">
+                            ${project.link.github? 
+                            `<a class="link" href="${project.link.github}" target="_blank">
                                 <div class="link__icon github"></div>
                                 <span class="link__href">GitHub</span>
-                            </a>
-                            <a class="link" href="${project.link.details}" target="_blank">
+                            </a>` : ''}
+                            ${project.link.details?
+                            `<a class="link" href="${project.link.details}" target="_blank">
                                 <div class="link__icon linkedin"></div>
                                 <span class="link__href">Deployed</span>
-                            </a>
+                            </a>`: ''}
                         </div>
                     </div>
                 </div>`
@@ -61,10 +66,12 @@ import textItems from '../data/textItems.json' assert {type: 'json'};
                         <ul>
                         <li>
                             <p class="yellow">${
-                                orangeTitle.title ? `<a class="yellow" href=${orangeTitle.url} target="_blank">${orangeTitle.title}</a>` 
+                                orangeTitle.title ? 
+                                `<a class="yellow" href=${orangeTitle.url} target="_blank">${orangeTitle.title}</a>` 
                                 : orangeTitle}</p>
                             ${project.text.map((text) => 
-                                `<li>${text.title ? `<a href=${text.url} target="_blank">${text.title}</a>` 
+                                `<li>${text.title ? 
+                                `<a href=${text.url} target="_blank">${text.title}</a>` 
                                 : `<p>${text}</p>`}</li>`).join('')}
                         </li>
                         </ul>
@@ -86,16 +93,18 @@ import textItems from '../data/textItems.json' assert {type: 'json'};
                 <h3 class="modal__year">This project was created by Michiel Willems in <span class="yellow">${project.year}</span>.</h3>
                 <p class="modal__paragraph">${project.description}</p>
                 <div class="modal__image-box" style="background-image: url(static/assets/images/${project.images.cover})"></div>
-                <div class="work-item__bg">
+                <div class="">
                     <div class="work-item__btns work-item__btns--modal">
-                        <a class="link" href="${project.link.github}" target="_blank">
+                        ${project.link.github? 
+                        `<a class="link" href="${project.link.github}" target="_blank">
                             <div class="link__icon github"></div>
                             <span class="link__href">GitHub</span>
-                        </a>
-                        <a class="link" href="${project.link.details}" target="_blank">
+                        </a>` : ''}
+                        ${project.link.details?
+                        `<a class="link" href="${project.link.details}" target="_blank">
                             <div class="link__icon linkedin"></div>
                             <span class="link__href">Deployed</span>
-                        </a>
+                        </a>`: ''}
                     </div>
                 </div>               
             </div>

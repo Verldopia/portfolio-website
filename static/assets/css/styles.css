@@ -330,13 +330,14 @@ a:hover,
 /* Modal */
 
 .modal {
-  position: fixed;
+  /* position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100;
-  box-sizing: border-box;
-  background-color: rgb(0, 0, 0, 0.5);
+  left: 0; */
+  /* width: 100%;
+  z-index: 100; */
+  /* box-sizing: border-box; */
+  /* background-color: rgb(0, 0, 0, 0.5); */
+
 }
 .modal__box {
   background-color: rgb(0, 0, 0, 0.7);
@@ -345,7 +346,7 @@ a:hover,
   width: calc(70rem - 2rem);
   max-width: 100%;
   padding: 1rem;
-  margin: 0 auto 20rem auto;
+  margin: 2rem auto;
 }
 .modal__close {
   font-size: 1.5rem;
