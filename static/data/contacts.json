@@ -1,27 +1,27 @@
 [
-    {
-        "title": "Location",
-        "url": "https://www.google.com/maps/place/Viljandi,+Viljandi+County",
-        "icon": "../images/location.png"
-    },
-    {
-        "title": "GitHub",
-        "url": "https://www.github.com/verldopia",
-        "icon": "../images/github.svg"
-    },
-    {
-        "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/michiel-willems-221113221/",
-        "icon": "../images/linkedin.png"
-    },
-    {
-        "title": "Email",
-        "url": "mailto:michiel.flash@gmail.com",
-        "icon": "../images/email--white.png"
-    },
-    {
-        "title": "Resume",
-        "url": "https://xd.adobe.com/view/7eb22c9e-5690-4705-b044-9b66a0e8e32a-2be1/?fullscreen",
-        "icon": "../images/resume--white.png"
-    }
+  {
+    "title": "Location",
+    "url": "https://www.google.com/maps/place/Viljandi,+Viljandi+County",
+    "icon": "../images/location.png"
+  },
+  {
+    "title": "GitHub",
+    "url": "https://www.github.com/verldopia",
+    "icon": "../images/github.svg"
+  },
+  {
+    "title": "LinkedIn",
+    "url": "https://www.linkedin.com/in/michiel-willems-221113221/",
+    "icon": "../images/linkedin.png"
+  },
+  {
+    "title": "Email",
+    "url": "mailto:michiel.flash@gmail.com",
+    "icon": "../images/email--white.png"
+  },
+  {
+    "title": "Resume",
+    "url": "https://xd.adobe.com/view/384a26ed-4f89-4791-a620-953a252a3bf4-6d19/",
+    "icon": "../images/resume--white.png"
+  }
 ]
